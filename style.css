@@ -132,6 +132,13 @@ footer {
   background-color: #f1f3f4;
 }
 
+span {
+  cursor: pointer;
+}
+span:hover {
+  color: #26baa4;
+}
+
 @media screen and (min-width: 1200px) {
   .heading {
     background-image: url("./images/bg-header-desktop.png");

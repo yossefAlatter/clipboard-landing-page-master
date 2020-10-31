@@ -112,6 +112,12 @@ footer{
     
     background-color: hsl(201, 11%, 95%);
 }
+span{
+    cursor: pointer;
+    &:hover{
+        color: hsl(171, 66%, 44%);
+    }
+}
 @media screen and (min-width: 1200px){
     .heading{
         background-image: url("./images/bg-header-desktop.png");
